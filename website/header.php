@@ -16,6 +16,6 @@
 <meta property="og:image:secure_url" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/ja/main.bundle.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/main.bundle.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/scss/vendor/swiper-bundle.min.css">
 <?php wp_head(); ?>
