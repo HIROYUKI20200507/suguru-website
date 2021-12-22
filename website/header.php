@@ -16,6 +16,11 @@
 <meta property="og:image:secure_url" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;800&family=Noto+Sans+JP:wght@100;300;400;700;900&family=Yuji+Mai&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/main.bundle.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/scss/vendor/swiper-bundle.min.css">
 <?php wp_head(); ?>
