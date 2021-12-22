@@ -140,6 +140,15 @@
                 </li>
             </ul>
         </section>
+        <section class="strong contents-width" id="strong">
+            <div class="contents-title">
+                <h1 class="head fade-in fade-in-up">STRONG</h1>
+                <div class="sub fade-in fade-in-up">イチオシ</div>
+            </div>
+            <div class="contents-detail strong-detail">
+                <img src="" alt="">
+            </div>
+        </section>
     </main>
 </body>
 
