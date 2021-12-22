@@ -10,7 +10,7 @@
     <header>
         <div class="header-nav">
             <img src="<?php echo get_template_directory_uri(); ?>/src/images/header-logo.png" alt="">
-            <div class="nav-contact">予約</div>
+            <a href="#" class="nav-contact hvr-trim">予約</a>
         </div>
     </header>
     <main class="main">
