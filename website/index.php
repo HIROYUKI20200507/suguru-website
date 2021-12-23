@@ -140,13 +140,27 @@
                 </li>
             </ul>
         </section>
-        <section class="strong contents-width" id="strong">
+        <section class="strong" id="strong">
             <div class="contents-title">
                 <h1 class="head fade-in fade-in-up">STRONG</h1>
                 <div class="sub fade-in fade-in-up">イチオシ</div>
             </div>
             <div class="contents-detail strong-detail">
-                <img src="" alt="">
+                <video src="<?php echo get_template_directory_uri(); ?>/src/videos/test_video.mp4" muted autoplay loop></video>
+                <ul class="strong-point">
+                    <li class="point-item">
+                        <div class="detail"><span class="num">01</span>1on1の気軽に通えるトータルボディケアサロン</div>
+                    </li>
+                    <li class="point-item">
+                        <div class="detail"><span class="num">02</span>ピッタリの施術プランをご提案いたします</div>
+                    </li>
+                    <li class="point-item">
+                        <div class="detail"><span class="num">03</span>プロのサポートで理想の体作り</div>
+                    </li>
+                    <li class="point-item">
+                        <div class="detail"><span class="num">04</span>お肌やフェイスラインのお悩みに◎</div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
