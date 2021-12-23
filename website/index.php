@@ -148,20 +148,75 @@
             <div class="contents-detail strong-detail">
                 <video src="<?php echo get_template_directory_uri(); ?>/src/videos/test_video.mp4" muted autoplay loop></video>
                 <ul class="strong-point">
-                    <li class="point-item">
+                    <li class="point-item fade-in fade-in-up">
                         <div class="detail"><span class="num">01</span>1on1の気軽に通えるトータルボディケアサロン</div>
                     </li>
-                    <li class="point-item">
+                    <li class="point-item fade-in fade-in-up">
                         <div class="detail"><span class="num">02</span>ピッタリの施術プランをご提案いたします</div>
                     </li>
-                    <li class="point-item">
+                    <li class="point-item fade-in fade-in-up">
                         <div class="detail"><span class="num">03</span>プロのサポートで理想の体作り</div>
                     </li>
-                    <li class="point-item">
+                    <li class="point-item fade-in fade-in-up">
                         <div class="detail"><span class="num">04</span>お肌やフェイスラインのお悩みに◎</div>
                     </li>
                 </ul>
             </div>
+        </section>
+        <section class="staff contents-width" id="staff">
+            <div class="contents-title">
+                <h1 class="head fade-in fade-in-up">STAFF</h1>
+                <div class="sub fade-in fade-in-up">スタッフ</div>
+            </div>
+            <div class="contents-detail contents-staff">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/images/staff/staff01.png" alt="">
+                <div class="img-detail">
+                    <div class="title">関根 傑<span>代表/Trainer</span></div>
+                    <div class="detail">
+                        ここに紹介文ここに紹介文ここに紹介文ここに紹介文
+                        ここに紹介文ここに紹介文ここに紹介文ここに紹介文
+                        ここに紹介文ここに紹介文ここに紹介文ここに紹介文
+                        ここに紹介文ここに紹介文ここに紹介文ここに紹介文
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="howUse contents-bg" id="howUse">
+            <div class="contents-title">
+                <h1 class="head fade-in fade-in-up">HOW USE</h1>
+                <div class="sub fade-in fade-in-up">始めるステップ</div>
+            </div>
+            <div class="how-title">パーソナルボディメイクを始める簡単4ステップ</div>
+            <ul class="contents-detail howUse-detail">
+                <li class="how-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how01.png" alt="">
+                    <div class="how-detail">
+                        <div class="title"><span>01</span>E-PAEKログイン</div>
+                        <div class="text"><a href="#">こちら</a>からログイン可能です。</div>
+                    </div>
+                </li>
+                <li class="how-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how02.png" alt="">
+                    <div class="how-detail">
+                        <div class="title"><span>02</span>メニュー選択</div>
+                        <div class="text">ご希望のサロンメニューを選択ください。</div>
+                    </div>
+                </li>
+                <li class="how-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how03.png" alt="">
+                    <div class="how-detail">
+                        <div class="title"><span>03</span>情報入力</div>
+                        <div class="text">ご登録に必要な条件を入力してください。</div>
+                    </div>
+                </li>
+                <li class="how-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how04.png" alt="">
+                    <div class="how-detail">
+                        <div class="title"><span>04</span>来店日時選択</div>
+                        <div class="text">ご希望の来店日時を選択してください。</div>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
 </body>

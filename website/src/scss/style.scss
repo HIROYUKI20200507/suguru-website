@@ -6,13 +6,19 @@ body {
     font-family: "Zen Kaku Gothic New", sans-serif;
 }
 
+img {
+    border-radius: 20px;
+}
+
 .header-nav {
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
     font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
     background-color: #043c86;
+    z-index: 1;
 
     & > img {
         width: 200px;
@@ -77,6 +83,7 @@ body {
 
     .top {
         position: relative;
+
         &::after {
             content: "";
             position: absolute;
@@ -153,6 +160,7 @@ body {
 
     .floor-img {
         & > img {
+            border-radius: 0;
             width: 100%;
             height: 200px;
             object-fit: cover;
@@ -195,6 +203,8 @@ body {
     }
 
     .strong {
+        margin-bottom: 200px;
+
         .strong-detail {
             position: relative;
             display: block;
@@ -251,6 +261,33 @@ body {
                         color: #043c86;
                         font-size: 1.6rem;
                         font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    .staff {
+        .contents-staff {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            & > img {
+                width: 400px;
+            }
+
+            .img-detail {
+                text-align: center;
+
+                .title {
+                    margin-bottom: 20px;
+                    font-size: 2rem;
+                    font-weight: bold;
+
+                    & > span {
+                        margin-left: 50px;
+                        font-size: 1.4rem;
                     }
                 }
             }
