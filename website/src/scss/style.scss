@@ -19,7 +19,7 @@ img {
     display: flex;
     justify-content: space-between;
     background-color: #043c86;
-    z-index: 1;
+    z-index: 100;
 
     & > img {
         width: 200px;
@@ -444,6 +444,30 @@ img {
         .price-announce {
             margin: 20px 0 0 20px;
             font-size: 0.8rem;
+        }
+    }
+
+    .access {
+        .access-table {
+            margin: auto;
+            line-height: 1.6rem;
+            border-collapse: collapse;
+
+            tr {
+                td {
+                    border-bottom: solid 1px black;
+                    padding: 20px 50px;
+
+                    &:last-child {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+
+        .access-iframe {
+            margin: 100px auto 0;
+            text-align: center;
         }
     }
 }
