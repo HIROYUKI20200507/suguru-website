@@ -4,6 +4,7 @@ body {
     font-size: 62.5%;
     font-family: "Montserrat", sans-serif;
     font-family: "Zen Kaku Gothic New", sans-serif;
+    color: #003c86;
 }
 
 img {
@@ -90,13 +91,13 @@ img {
             top: 0;
             left: 0;
             width: 100%;
-            height: 90vh;
+            height: 100vh;
             background: rgba(0, 0, 0, 0.2);
         }
 
         .top-bg {
             width: 100%;
-            height: 90vh;
+            height: 100vh;
         }
 
         .top-title {
@@ -291,6 +292,158 @@ img {
                     }
                 }
             }
+        }
+    }
+
+    .howUse {
+        .how-title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .how-title,
+        .howUse-detail {
+            max-width: 1080px;
+            margin: auto;
+            text-align: center;
+
+            .how-item {
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                position: relative;
+
+                .arrow {
+                    position: relative;
+                    position: absolute;
+                    top: 45%;
+                    left: 16%;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: 80px;
+                        left: 44px;
+                        transform: rotate(90deg);
+                        border: #043c86 1px solid;
+                        width: 50px;
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 100px;
+                        left: 59px;
+                        transform: rotate(45deg);
+                        border: #043c86 1px solid;
+                        width: 10px;
+                    }
+                }
+
+                & > img {
+                    aspect-ratio: 8/11;
+                    width: 40px;
+                    border-radius: 0;
+                }
+
+                .how-detail {
+                    display: block;
+                    width: 50%;
+                    margin: 10px 0;
+                    border-bottom: solid 1px #043c86;
+
+                    .title {
+                        font-weight: bold;
+
+                        & > span {
+                            font-size: 1.6rem;
+                            margin-right: 5px;
+                        }
+                    }
+
+                    .text {
+                        font-size: 1.2rem;
+
+                        & > a {
+                            text-decoration: none;
+                            color: #f18301;
+
+                            &:hover {
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .price {
+        .price-table {
+            margin: auto;
+            line-height: 1.6rem;
+            border-collapse: collapse;
+
+            thead {
+                text-align: center;
+
+                th {
+                    border-right: solid 1px black;
+                    width: 170px;
+                    padding: 0 25px 10px;
+                    position: relative;
+
+                    &:last-child {
+                        border-right: none;
+                    }
+
+                    & > span {
+                        position: absolute;
+                        bottom: 5px;
+                        right: 15px;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+
+            tr {
+                td {
+                    border-right: solid 1px black;
+                    padding: 20px 0;
+                    text-align: center;
+
+                    &:first-child {
+                        text-align: left;
+                        width: 250px;
+                        padding: 0 25px;
+                    }
+
+                    &:last-child {
+                        border-right: none;
+                    }
+                }
+            }
+
+            .table-item {
+                &:nth-child(6) {
+                    border-bottom: black solid 1px;
+                }
+
+                &:nth-child(odd) {
+                    background-color: #e4eefc;
+                }
+
+                &:last-child {
+                    background-color: #ffffff;
+                }
+            }
+        }
+
+        .price-announce {
+            margin: 20px 0 0 20px;
+            font-size: 0.8rem;
         }
     }
 }
