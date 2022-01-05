@@ -136,6 +136,7 @@ img {
                 color: #043c86;
 
                 & > img {
+                    opacity: 0.8;
                     width: 350px;
                     height: 350px;
                     object-fit: cover;
@@ -161,6 +162,7 @@ img {
 
     .floor-img {
         & > img {
+            opacity: 0.8;
             border-radius: 0;
             width: 100%;
             height: 200px;
@@ -182,6 +184,7 @@ img {
             }
 
             & > img {
+                opacity: 0.8;
                 width: 350px;
                 object-fit: cover;
             }
@@ -468,6 +471,114 @@ img {
         .access-iframe {
             margin: 100px auto 0;
             text-align: center;
+        }
+    }
+
+    .contact {
+        .contact-detail {
+            margin: auto;
+            max-width: 920px;
+        }
+        /* Contact Form7 */
+        .contact7 {
+            padding: 0;
+            max-width: 100%;
+            box-sizing: border-box;
+
+            .form-layout {
+                list-style: none;
+                text-align: center;
+
+                & input,
+                textarea {
+                    border: none;
+                    width: 100%;
+                    margin-bottom: 25px;
+                    padding: 10px;
+                }
+
+                .form-title {
+                    text-align: left;
+                }
+
+                /* 必須マーク */
+                .must {
+                    background: #ff1a00;
+                    font-size: 1.2rem;
+                }
+
+                /* 任意マーク */
+                .optional {
+                    background: #999;
+                }
+
+                .must,
+                .optional {
+                    color: #fff;
+                    border-radius: 3px;
+                    font-size: 10px;
+                    margin-left: 10px;
+                    padding: 5px 10px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        .btn_contact7 {
+            text-align: center;
+            input {
+                width: 100%;
+                background-color: #f18301;
+                color: #fff;
+                font-size: 1.1em;
+                font-weight: bold;
+                letter-spacing: 0.2em;
+                transition: 0.3s;
+                padding: 10px 0;
+                border: none;
+
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .btn_contact7 {
+                display: block;
+                width: 100%;
+
+                input {
+                    background-color: #f18301;
+                    color: #fff;
+                    font-size: 1.1em;
+                    font-weight: bold;
+                    letter-spacing: 0.2em;
+                    transition: 0.3s;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+footer {
+    .back-color {
+        background-color: #003c86;
+        padding: 100px;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            width: 420px;
+            margin: auto;
+
+            .nav-list {
+                & > a {
+                    font-size: 1.2rem;
+                    color: #e4eefc;
+                    text-decoration: none;
+                }
+            }
         }
     }
 }
