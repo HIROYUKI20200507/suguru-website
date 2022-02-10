@@ -178,13 +178,13 @@
                 <div class="sub fade-in fade-in-up">スタッフ</div>
             </div>
             <div class="contents-detail contents-staff">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/staff/staff01.png" alt="">
+                <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/staff/staff01.png" alt="">
                 <div class="img-detail">
-                    <ul class="title">
+                    <ul class="title fade-in fade-in-up">
                         <li>関根 傑</li>
                         <li><span>鍼灸師/あん摩マッサージ指圧師/アスレティックトレーナー</span></li>
                     </ul>
-                    <div class="detail">
+                    <div class="detail fade-in fade-in-up">
                         私は以前、鍼灸院、スポーツジムで働いていました。<br>
                         鍼灸院では痛みの改善、疲労回復の施術をしますが、
                         根本改善を目的とした継続的な運動のサポートが出来ず症状を繰り返す方をみて悔しい思いをしていました。

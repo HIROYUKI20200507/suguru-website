@@ -35,11 +35,20 @@ img {
         background-color: #f18301;
         text-decoration: none;
         transition: 0.5s;
+
+        @media screen and (max-width: 375px) {
+            width: 100px;
+        }
     }
 }
 
 .main {
     font-size: 1.2rem;
+
+    @media screen and (max-width: 375px) {
+        overflow: hidden;
+        font-size: 0.95rem;
+    }
 
     // コンテンツのタイトル
     .contents-width {
@@ -55,6 +64,10 @@ img {
     .contents-title {
         margin-bottom: 200px;
         text-align: center;
+
+        @media screen and (max-width: 375px) {
+            margin: 0 25px 100px;
+        }
 
         .head {
             color: #043c86;
@@ -79,6 +92,12 @@ img {
 
     .contents-detail {
         line-height: 2.4rem;
+        margin: 0 auto;
+
+        @media screen and (max-width: 375px) {
+            margin: 0 25px;
+            padding: 0;
+        }
     }
     //ここまで
 
@@ -98,6 +117,8 @@ img {
         .top-bg {
             width: 100%;
             height: 100vh;
+            object-fit: cover;
+            border-radius: 0;
         }
 
         .top-title {
@@ -106,6 +127,13 @@ img {
             right: -10%;
             transform: translate(-50%, -50%);
             z-index: 1;
+
+            @media screen and (max-width: 375px) {
+                top: 40%;
+                left: 58%;
+                right: 0;
+                width: 100%;
+            }
         }
     }
 
@@ -116,6 +144,10 @@ img {
             text-align: right;
             font-size: 2.4rem;
             font-family: "Yuji Mai", serif;
+
+            @media screen and (max-width: 375px) {
+                font-size: 2rem;
+            }
         }
     }
 
@@ -124,7 +156,6 @@ img {
 
         .service-detail {
             max-width: 1080px;
-            margin: 0 auto;
 
             .service-item {
                 list-style: none;
@@ -135,25 +166,49 @@ img {
                 margin: 150px 0;
                 color: #043c86;
 
+                @media screen and (max-width: 375px) {
+                    display: block;
+                    margin: 0 auto 50px;
+                    text-align: center;
+                }
+
                 & > img {
                     opacity: 0.8;
                     width: 350px;
                     height: 350px;
                     object-fit: cover;
+
+                    @media screen and (max-width: 375px) {
+                        height: auto;
+                        width: 70%;
+                    }
                 }
 
                 .text {
                     width: 50%;
 
+                    @media screen and (max-width: 375px) {
+                        width: 90%;
+                        margin: auto;
+                    }
+
                     .text-title {
                         text-align: center;
-                        font-size: 2rem;
+                        font-size: 1.8rem;
                         font-weight: bold;
                         padding-bottom: 30px;
+
+                        @media screen and (max-width: 375px) {
+                            font-size: 1.2rem;
+                        }
                     }
 
                     .text-detail {
                         font-size: 1.2rem;
+
+                        @media screen and (max-width: 375px) {
+                            font-size: 0.95rem;
+                        }
                     }
                 }
             }
@@ -179,6 +234,11 @@ img {
             gap: 50px;
             margin: 150px 0;
 
+            @media screen and (max-width: 375px) {
+                display: block;
+                text-align: center;
+            }
+
             &:nth-child(even) {
                 flex-direction: row-reverse;
             }
@@ -187,20 +247,37 @@ img {
                 opacity: 0.8;
                 width: 350px;
                 object-fit: cover;
+
+                @media screen and (max-width: 375px) {
+                    height: auto;
+                    width: 70%;
+                }
             }
 
             .text {
                 width: 50%;
 
+                @media screen and (max-width: 375px) {
+                    width: 90%;
+                    margin: auto;
+                }
                 .text-title {
                     text-align: center;
                     font-size: 2rem;
                     font-weight: bold;
                     padding-bottom: 30px;
+
+                    @media screen and (max-width: 375px) {
+                        font-size: 1.2rem;
+                    }
                 }
 
                 .text-detail {
                     font-size: 1.2rem;
+
+                    @media screen and (max-width: 375px) {
+                        font-size: 0.95rem;
+                    }
                 }
             }
         }
@@ -227,6 +304,11 @@ img {
             & > video {
                 opacity: 0.2;
                 width: 100%;
+
+                @media screen and (max-width: 375px) {
+                    height: 350px;
+                    object-fit: cover;
+                }
             }
 
             .strong-point {
@@ -237,11 +319,20 @@ img {
                 list-style: none;
                 z-index: 1;
 
+                @media screen and (max-width: 375px) {
+                    width: 75%;
+                    top: 40%;
+                }
+
                 .point-item {
                     position: relative;
                     padding: 40px 20px;
                     border-top: solid 1px #043c86;
 
+                    @media screen and (max-width: 375px) {
+                        padding: 10px 5px 0;
+                        height: 50px;
+                    }
                     &:last-child {
                         border-bottom: solid 1px #043c86;
                     }
@@ -259,12 +350,23 @@ img {
                         text-align: center;
                         color: #fef955;
                         background-color: #043c86;
+
+                        @media screen and (max-width: 375px) {
+                            width: 20px;
+                            height: 20px;
+                            font-size: 1rem;
+                        }
                     }
 
                     .detail {
                         color: #043c86;
                         font-size: 1.6rem;
                         font-weight: bold;
+
+                        @media screen and (max-width: 375px) {
+                            font-size: 1rem;
+                            line-height: 20px;
+                        }
                     }
                 }
             }
@@ -590,6 +692,10 @@ footer {
             gap: 30px;
             width: 420px;
             margin: auto;
+
+            @media screen and (max-width: 375px) {
+                width: 100%;
+            }
 
             .nav-list {
                 & > a {
