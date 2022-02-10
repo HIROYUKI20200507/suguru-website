@@ -624,10 +624,24 @@ img {
             line-height: 1.6rem;
             border-collapse: collapse;
 
-            tr {
+            .table-item {
+                @media screen and (max-width: 375px) {
+                    display: flex;
+                    flex-direction: column;
+                }
+
                 td {
                     border-bottom: solid 1px black;
                     padding: 20px 50px;
+
+                    @media screen and (max-width: 375px) {
+                        border-bottom: none;
+                        padding: 5px 50px;
+
+                        &:first-child {
+                            background-color: #e4eefc;
+                        }
+                    }
 
                     &:last-child {
                         border-right: none;
@@ -638,6 +652,7 @@ img {
 
         .access-iframe {
             margin: 100px auto 0;
+            width: 100%;
             text-align: center;
         }
     }
@@ -650,8 +665,14 @@ img {
         /* Contact Form7 */
         .contact7 {
             padding: 0;
-            max-width: 100%;
+            max-width: 1024px;
+            width: 100%;
             box-sizing: border-box;
+
+            @media screen and (max-width: 375px) {
+                width: 80%;
+                margin: 0 auto;
+            }
 
             .form-layout {
                 list-style: none;
@@ -663,6 +684,10 @@ img {
                     width: 100%;
                     margin-bottom: 25px;
                     padding: 10px;
+
+                    @media screen and (max-width: 375px) {
+                        width: 90%;
+                    }
                 }
 
                 .form-title {
@@ -742,6 +767,7 @@ footer {
 
             @media screen and (max-width: 375px) {
                 width: 100%;
+                padding: 0;
             }
 
             .nav-list {

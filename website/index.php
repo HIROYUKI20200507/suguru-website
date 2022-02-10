@@ -358,7 +358,7 @@
                     </tr>
                 </table>
                 <div class="access-iframe">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6471.533925080133!2d139.44725772611295!3d35.80565392066183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dd1aa63771a7%3A0x237bd6fd27d1138a!2sPERSONAL%20BODYMAKE%20SALON%20%E3%80%8ECOLLECT%E3%80%8F!5e0!3m2!1sja!2sjp!4v1640354762069!5m2!1sja!2sjp" max-width="600" width="65%" max-height="450" height="500vh" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6471.533925080133!2d139.44725772611295!3d35.80565392066183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dd1aa63771a7%3A0x237bd6fd27d1138a!2sPERSONAL%20BODYMAKE%20SALON%20%E3%80%8ECOLLECT%E3%80%8F!5e0!3m2!1sja!2sjp!4v1640354762069!5m2!1sja!2sjp" max-width="600" width="80%" max-height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </section>
