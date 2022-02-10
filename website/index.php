@@ -250,7 +250,7 @@
                 <h1 class="head fade-in fade-in-up">PRICE</h1>
                 <div class="sub fade-in fade-in-up">ご利用料金について</div>
             </div>
-            <div class="contents-detail">
+            <div class="contents-detail detail-scroll">
                 <table class="price-table">
                     <thead>
                         <th></th>

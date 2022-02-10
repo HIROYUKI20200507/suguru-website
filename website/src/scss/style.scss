@@ -377,10 +377,20 @@ img {
         .contents-staff {
             display: flex;
             align-items: center;
+            text-align: center;
             gap: 50px;
+
+            @media screen and (max-width: 375px) {
+                display: block;
+            }
 
             & > img {
                 width: 400px;
+
+                @media screen and (max-width: 375px) {
+                    width: 70%;
+                    height: auto;
+                }
             }
 
             .img-detail {
@@ -395,11 +405,24 @@ img {
                     font-size: 2rem;
                     font-weight: bold;
 
+                    @media screen and (max-width: 375px) {
+                        display: block;
+                        padding: 0;
+                    }
+
                     & > li {
                         width: 30%;
 
+                        @media screen and (max-width: 375px) {
+                            width: 100%;
+                        }
+
                         &:last-child {
                             width: 70%;
+
+                            @media screen and (max-width: 375px) {
+                                width: 100%;
+                            }
                         }
 
                         & > span {
@@ -407,6 +430,11 @@ img {
                             margin-left: 50px;
                             line-height: 1rem;
                             font-size: 1.2rem;
+
+                            @media screen and (max-width: 375px) {
+                                margin: 0 auto;
+                                padding: 0;
+                            }
                         }
                     }
                 }
@@ -423,6 +451,11 @@ img {
         .how-title {
             font-size: 2rem;
             font-weight: bold;
+
+            @media screen and (max-width: 375px) {
+                font-size: 1.2rem;
+                padding: 0 50px;
+            }
         }
 
         .how-title,
@@ -444,6 +477,10 @@ img {
                     position: absolute;
                     top: 45%;
                     left: 16%;
+
+                    @media screen and (max-width: 375px) {
+                        left: 0;
+                    }
 
                     &::after {
                         content: "";
@@ -489,6 +526,11 @@ img {
 
                     .text {
                         font-size: 1.2rem;
+                        @media screen and (max-width: 375px) {
+                            font-size: 0.8rem;
+                            text-align: left;
+                            line-height: 1.2rem;
+                        }
 
                         & > a {
                             text-decoration: none;
@@ -505,6 +547,11 @@ img {
     }
 
     .price {
+        .detail-scroll {
+            @media screen and (max-width: 375px) {
+                overflow: scroll;
+            }
+        }
         .price-table {
             margin: auto;
             line-height: 1.6rem;
