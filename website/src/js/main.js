@@ -22,4 +22,13 @@ $(function ($) {
             }
         });
     });
+
+    $(window).scroll(function () {
+        const scroll = $(this).scrollTop();
+        if (scroll > 500) {
+            $("aside").addClass("active");
+        } else {
+            $("aside").removeClass("active");
+        }
+    });
 });

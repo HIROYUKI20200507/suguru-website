@@ -383,6 +383,22 @@
                 <?php wp_reset_postdata(); ?>
             </div>
         </section>
+        <aside>
+            <ul class="sns-icon">
+                <li class="item">
+                    <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                </li>
+                <li class="item">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="item">
+                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                </li>
+                <li class="item">
+                    <a href="#"><i class="fa-brands fa-line"></i></a>
+                </li>
+            </ul>
+        </aside>
     </main>
 </body>
 

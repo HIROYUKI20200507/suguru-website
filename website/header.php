@@ -21,6 +21,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;800&family=Yuji+Mai&family=Zen+Kaku+Gothic+New:wght@300;400;700&display=swap" rel="stylesheet">
 
+<!-- FontAweSome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/main.bundle.css">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/scss/vendor/swiper-bundle.min.css">
 <?php wp_head(); ?>

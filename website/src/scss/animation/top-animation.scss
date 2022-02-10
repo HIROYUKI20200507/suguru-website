@@ -27,6 +27,10 @@
         padding: 8px 15px;
         position: relative;
         z-index: 1;
+        @media screen and (max-width: 600px) {
+            font-size: 32px;
+        }
+
         @media screen and (max-width: 375px) {
             font-size: 26px;
         }
