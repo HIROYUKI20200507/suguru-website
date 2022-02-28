@@ -23,18 +23,18 @@
         </section>
         <section class="concept contents-width" id="concept">
             <div class="contents-title">
-                <h1 class="head fade-in fade-in-up">CONCEPT</h1>
-                <div class="sub fade-in fade-in-up">コンセプト</div>
+                <h1 class="head">CONCEPT</h1>
+                <div class="sub">コンセプト</div>
             </div>
             <div class="contents-detail">
-                <p class="concept-text fade-in fade-in-up">
+                <p class="concept-text">
                     PERSONAL BODYMAKE SALON 『COLLECT』<br>
                     COLLECT＝集まる・集める<br>
                     COLLECTに多くの人が集まり、人々がサロンを通して幸せになり、笑顔集まる空間にしたい。<br>
                     <br>
                     COLLECTは<br>
                     スポーツジム、鍼灸マッサージ院ではなく、『ボディメイクサロン』としてそれぞれの垣根を越えボディメイクをトータル的にサポートします。<br>
-                    <br>
+                    <!-- <br>
                     誰しも身体に対する要望があります。<br>
                     ただ多くの方が、運動はジムや公園。身体の不調や疲れを取るには病院や治療院へと向かいます。<br>
                     <br>
@@ -50,9 +50,9 @@
                     <br>
                     身体に対する要望は十人十色<br>
                     皆様の理想の身体になる為の応援を全力で行わせて頂きます。<br>
-                    お気軽に何でもご相談下さい。<br>
+                    お気軽に何でもご相談下さい。<br> -->
                 </p>
-                <div class="concept-name fade-in fade-in-up">
+                <div class="concept-name">
                     関根 傑
                 </div>
             </div>
@@ -78,16 +78,6 @@
                         <div class="text-title fade-in fade-in-up">鍼灸マッサージ</div>
                         <div class="text-detail fade-in fade-in-up">
                             肩こりや身体のメンテナンスでお悩みの方におすすめです。
-                        </div>
-                    </div>
-                </li>
-                <li class="service-item">
-                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/service/service03.jpg" alt="">
-                    <div class="text">
-                        <div class="text-title fade-in fade-in-up">ストレッチ・骨盤矯正</div>
-                        <div class="text-detail fade-in fade-in-up">
-                            身体の奥深くにしっかりと圧を入れていくことで、めぐりがスムーズになり、老廃物も流れやすくなります。
-                            必要に応じてバランスボールなども使用。目的に合った運動で、一緒に楽しく身体を動かしましょう!
                         </div>
                     </div>
                 </li>
@@ -129,7 +119,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="floor-item">
+                <!-- <li class="floor-item">
                     <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor03.png" alt="">
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">その他サービス</div>
@@ -137,13 +127,13 @@
                             店内にウォーターサーバーを設置していますので、お好きなタイミングで水分補給をしていただけます。
                         </div>
                     </div>
-                </li>
+                </li> -->
                 <li class="floor-item">
                     <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor04.png" alt="">
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">リラックススペース</div>
                         <div class="text-detail fade-in fade-in-up">
-                            他のお客様の目を気にせずにお過ごしいただけますので、お子様連れや複数人でのご来店もOK。
+                            おしゃれな空間で憩いの場としても◎<br>他のお客様の目を気にせずにお過ごしいただけますので、お子様連れや複数人でのご来店もOK。
                         </div>
                     </div>
                 </li>
@@ -158,16 +148,16 @@
                 <video src="<?php echo get_template_directory_uri(); ?>/src/videos/test_video.mp4" muted autoplay loop></video>
                 <ul class="strong-point">
                     <li class="point-item fade-in fade-in-up">
-                        <div class="detail"><span class="num">01</span>1on1の気軽に通えるトータルボディケアサロン</div>
+                        <div class="detail"><span class="num">01</span>1on1のトータルボディメイクサロン</div>
                     </li>
                     <li class="point-item fade-in fade-in-up">
-                        <div class="detail"><span class="num">02</span>ピッタリの施術プランをご提案いたします</div>
+                        <div class="detail"><span class="num">02</span>トレーニングと治療を同時に</div>
                     </li>
                     <li class="point-item fade-in fade-in-up">
-                        <div class="detail"><span class="num">03</span>プロのサポートで理想の体作り</div>
+                        <div class="detail"><span class="num">03</span>お肌やフェイスラインのお悩みに◎</div>
                     </li>
                     <li class="point-item fade-in fade-in-up">
-                        <div class="detail"><span class="num">04</span>お肌やフェイスラインのお悩みに◎</div>
+                        <div class="detail"><span class="num">04</span>駅から徒歩５分で通いやすい</div>
                     </li>
                 </ul>
             </div>
@@ -185,7 +175,7 @@
                         <li><span>鍼灸師/あん摩マッサージ指圧師/アスレティックトレーナー</span></li>
                     </ul>
                     <div class="detail fade-in fade-in-up">
-                        私は以前、鍼灸院、スポーツジムで働いていました。<br>
+                        <!-- 私は以前、鍼灸院、スポーツジムで働いていました。<br>
                         鍼灸院では痛みの改善、疲労回復の施術をしますが、
                         根本改善を目的とした継続的な運動のサポートが出来ず症状を繰り返す方をみて悔しい思いをしていました。
                         <br>
@@ -195,7 +185,7 @@
                         <br>
                         そんな中で鍼灸院とスポーツジムを一つにしたいと思う様になりました。<br>
                         施術の一環としてトレーニングを。ジムにお越し頂いた方には、トレーニング後に鍼灸マッサージで元気になって帰って頂く。<br>
-                        組み合わさる事でより大きな効果が生まれます。<br>
+                        組み合わさる事でより大きな効果が生まれます。<br> -->
                         鍼灸師、トレーナーの目線で<br>
                         最初から最後までマンツーマンでサポートさせて頂きます。<br>
                         <br>
@@ -210,40 +200,10 @@
                 <h1 class="head fade-in fade-in-up">HOW USE</h1>
                 <div class="sub fade-in fade-in-up">始めるステップ</div>
             </div>
-            <div class="how-title fade-in fade-in-up">パーソナルボディメイクを始める簡単4ステップ</div>
-            <ul class="contents-detail howUse-detail">
-                <li class="how-item fade-in fade-in-up">
-                    <span class="arrow"></span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how01.png" alt="">
-                    <div class="how-detail">
-                        <div class="title"><span>01</span>E-PAEKログイン</div>
-                        <div class="text"><a href="https://mitsuraku.jp/salon/84036/">こちら</a>からログイン可能です。</div>
-                    </div>
-                </li>
-                <li class="how-item fade-in fade-in-up">
-                    <span class="arrow"></span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how02.png" alt="">
-                    <div class="how-detail">
-                        <div class="title"><span>02</span>メニュー選択</div>
-                        <div class="text">ご希望のサロンメニューを選択ください。</div>
-                    </div>
-                </li>
-                <li class="how-item fade-in fade-in-up">
-                    <span class="arrow"></span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how03.png" alt="">
-                    <div class="how-detail">
-                        <div class="title"><span>03</span>情報入力</div>
-                        <div class="text">ご登録に必要な条件を入力してください。</div>
-                    </div>
-                </li>
-                <li class="how-item fade-in fade-in-up">
-                    <img src="<?php echo get_template_directory_uri(); ?>/src/images/how-use/how04.png" alt="">
-                    <div class="how-detail">
-                        <div class="title"><span>04</span>来店日時選択</div>
-                        <div class="text">ご希望の来店日時を選択してください。</div>
-                    </div>
-                </li>
-            </ul>
+            <div class="contents-detail howUse-detail">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/images/sns/line-qr.png" alt="">
+                <a href="https://lin.ee/CTeEi3a"><img height="36" border="0" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
+            </div>
         </section>
         <section class="price contents-width" id="price">
             <div class="contents-title">
@@ -253,11 +213,12 @@
             <div class="contents-detail detail-scroll">
                 <table class="price-table">
                     <thead>
+                        <!-- TODO:カタカナ -->
                         <th></th>
-                        <th>Personal<br>Body make<span>*1</span></th>
+                        <th>パーソナルボディメイク会員<span>*1*2</span></th>
                         <th>Fitness<br>member<span>*1</span></th>
-                        <th>Body<br>maintenance</th>
-                        <th>Body<br>maintenance</th>
+                        <th>全身鍼灸マッサージ</th>
+                        <th>美容鍼灸</th>
                     </thead>
                     <tr class="table-item">
                         <td>パーソナルトレーニング</td>
@@ -284,7 +245,7 @@
                         <td>美顔鍼・小顔頭蓋骨矯正</td>
                         <td>○</td>
                         <td></td>
-                        <td></td>
+                        <td>○</td>
                         <td>○</td>
                     </tr>
                     <tr class="table-item">
@@ -296,21 +257,22 @@
                     </tr>
                     <tr class="table-item">
                         <td>回数</td>
-                        <td>4回券/8回券</td>
-                        <td>無制限</td>
+                        <td>4回券/8回券/都度払</td>
+                        <td>4回/月</td>
                         <td>1回</td>
                         <td>1回</td>
                     </tr>
                     <tr class="table-item">
                         <td>金額（+tax）</td>
-                        <td>4回券:28,000円<br>8回券:48,000円</td>
+                        <td>4回券:28,000円<br>8回券:48,000円<br>都度払:8,000円</td>
                         <td>12,000円/月</td>
                         <td>8,000円</td>
                         <td>5,000円</td>
                     </tr>
                 </table>
-                <div class="price-announce">※1 初回入会金別途10,000円いただきます</div>
             </div>
+            <div class="price-announce">※1 初回入会金別途10,000円いただきます</div>
+            <div class="price-announce">※2 都度払の場合は入会金いただいておりません</div>
         </section>
         <section class="news contents-bg" id="news">
             <div class="contents-title">
