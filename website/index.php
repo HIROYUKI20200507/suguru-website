@@ -198,11 +198,12 @@
         <section class="howUse contents-bg" id="howUse">
             <div class="contents-title">
                 <h1 class="head fade-in fade-in-up">HOW USE</h1>
-                <div class="sub fade-in fade-in-up">始めるステップ</div>
+                <div class="sub fade-in fade-in-up">簡単な初め方</div>
             </div>
             <div class="contents-detail howUse-detail">
-                <img src="<?php echo get_template_directory_uri(); ?>/src/images/sns/line-qr.png" alt="">
-                <a href="https://lin.ee/CTeEi3a"><img height="36" border="0" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
+                <div class="fade-in fade-in-up">LINEで友達登録をしてもらえればすぐ始めることができます。</div>
+                <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/sns/line-qr.png" alt="">
+                <a class="fade-in fade-in-up" href="https://lin.ee/CTeEi3a"><img height="36" border="0" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
             </div>
         </section>
         <section class="price contents-width" id="price">
@@ -215,9 +216,9 @@
                     <thead>
                         <!-- TODO:カタカナ -->
                         <th></th>
-                        <th>パーソナルボディメイク会員<span>*1*2</span></th>
+                        <th>パーソナル<br>ボディメイク会員<span>*1*2</span></th>
                         <th>Fitness<br>member<span>*1</span></th>
-                        <th>全身鍼灸マッサージ</th>
+                        <th>全身鍼灸<br>マッサージ</th>
                         <th>美容鍼灸</th>
                     </thead>
                     <tr class="table-item">
@@ -357,7 +358,7 @@
                     <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
                 </li>
                 <li class="item">
-                    <a href="#"><i class="fa-brands fa-line"></i></a>
+                    <a href="https://lin.ee/CTeEi3a"><i class="fa-brands fa-line"></i></a>
                 </li>
             </ul>
         </aside>
