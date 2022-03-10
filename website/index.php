@@ -34,23 +34,6 @@
                     <br>
                     COLLECTは<br>
                     スポーツジム、鍼灸マッサージ院ではなく、『ボディメイクサロン』としてそれぞれの垣根を越えボディメイクをトータル的にサポートします。<br>
-                    <!-- <br>
-                    誰しも身体に対する要望があります。<br>
-                    ただ多くの方が、運動はジムや公園。身体の不調や疲れを取るには病院や治療院へと向かいます。<br>
-                    <br>
-                    当サロンでは<br>
-                    ジムスペースと鍼灸マッサージルームが併設し、完全予約制のパーソナル空間なので人の目を気にする事なく時間いっぱい一人一人にあったメニューをトレーナー・治療家の目線からトータル的にサポートします。<br>
-                    運動と治療を一緒に行う事でそれぞれで行うより効率的かつより多くの効果が期待できます。<br>
-                    <br>
-                    <br>
-                    理想の身体作り＝ボディメイクは一人では中々続きません。<br>
-                    また、ボディメイクは一度で効果が出る訳でなく、健康であり続ける為には継続が大切です。<br>
-                    だからこそ、その場所が辛い・嫌いな場所でなく、楽しい・好きな場所であって欲しい。<br>
-                    その為にも何気ない会話やマッサージなどを楽しみに癒しや遊びに行く様な感覚で継続的にお越し頂ける空間を目指しております。そして私はトレーナーや先生でなく皆様のサポーターであり続けたいと思います。<br>
-                    <br>
-                    身体に対する要望は十人十色<br>
-                    皆様の理想の身体になる為の応援を全力で行わせて頂きます。<br>
-                    お気軽に何でもご相談下さい。<br> -->
                 </p>
                 <div class="concept-name">
                     関根 傑
@@ -68,7 +51,7 @@
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">パーソナルトレーニング</div>
                         <div class="text-detail fade-in fade-in-up">
-                            アスレティックトレーナーの視点で的確なアドバイスをし、価値を提供いたします。
+                            トレーナー・鍼灸師の視点からマンツーマンでサポート。理想に合わせた強度、ペースをアドバイス。1人じゃないから続けやすい！トレーニング初心者の方にこそオススメです。
                         </div>
                     </div>
                 </li>
@@ -77,7 +60,7 @@
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">鍼灸マッサージ</div>
                         <div class="text-detail fade-in fade-in-up">
-                            肩こりや身体のメンテナンスでお悩みの方におすすめです。
+                            肩こり・腰痛などの痛みに対する施術から、疲労回復など癒しの施術までお身体のお悩み何でもご相談ください。
                         </div>
                     </div>
                 </li>
@@ -86,7 +69,7 @@
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">美顔鍼・小顔頭蓋骨矯正</div>
                         <div class="text-detail fade-in fade-in-up">
-                            国家資格保有者による施術だから安心◎鍼の刺激で肌代謝を高め、肌質の改善を目指します!
+                            鍼の刺激で肌の代謝を高め、肌質の改善します。また、深い筋肉や靭帯、骨格へのアプローチで小顔効果、たるみ改善に効果的です。
                         </div>
                     </div>
                 </li>
@@ -106,7 +89,7 @@
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">パーソナルトレーニングスペース</div>
                         <div class="text-detail fade-in fade-in-up">
-                            一人ひとりに合わせた効果的な指導が受けれることはもちろん、ひとりじゃないから続けやすい！
+                            マシンやダンベルなどの機具から、バランスボールやゴムチューブなども使い理想の身体に合わせたトレーニングをサポート。
                         </div>
                     </div>
                 </li>
@@ -115,25 +98,18 @@
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">マッサージスペース</div>
                         <div class="text-detail fade-in fade-in-up">
-                            いつでも気持ちよく施術を受けていただけるよう、清潔感を大切にしています。適切な温度調整も◎
+                            いつでも気持ちよく施術を受けていただけるよう、清潔感を大切にしています。
+                            適切な温度調整や調光も◎
                         </div>
                     </div>
                 </li>
-                <!-- <li class="floor-item">
-                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor03.png" alt="">
-                    <div class="text">
-                        <div class="text-title fade-in fade-in-up">その他サービス</div>
-                        <div class="text-detail fade-in fade-in-up">
-                            店内にウォーターサーバーを設置していますので、お好きなタイミングで水分補給をしていただけます。
-                        </div>
-                    </div>
-                </li> -->
                 <li class="floor-item">
                     <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor04.png" alt="">
                     <div class="text">
-                        <div class="text-title fade-in fade-in-up">リラックススペース</div>
+                        <div class="text-title fade-in fade-in-up">BARスペース</div>
                         <div class="text-detail fade-in fade-in-up">
-                            おしゃれな空間で憩いの場としても◎<br>他のお客様の目を気にせずにお過ごしいただけますので、お子様連れや複数人でのご来店もOK。
+                            おしゃれな空間で憩いの場としても◎
+                            プロテインやコーヒーを飲みながらリラックスして下さい。お子様連れや複数人でのご来店もOK！
                         </div>
                     </div>
                 </li>
@@ -175,17 +151,6 @@
                         <li><span>鍼灸師/あん摩マッサージ指圧師/アスレティックトレーナー</span></li>
                     </ul>
                     <div class="detail fade-in fade-in-up">
-                        <!-- 私は以前、鍼灸院、スポーツジムで働いていました。<br>
-                        鍼灸院では痛みの改善、疲労回復の施術をしますが、
-                        根本改善を目的とした継続的な運動のサポートが出来ず症状を繰り返す方をみて悔しい思いをしていました。
-                        <br>
-                        <br>
-                        スポーツジムでは健康増進やボディメイクの為に多くの方がいらっしゃいますが継続できる方は多くありませんでした。<br>
-                        それはジムは疲れる、辛い、1人では大変という方が殆どでした…。<br>
-                        <br>
-                        そんな中で鍼灸院とスポーツジムを一つにしたいと思う様になりました。<br>
-                        施術の一環としてトレーニングを。ジムにお越し頂いた方には、トレーニング後に鍼灸マッサージで元気になって帰って頂く。<br>
-                        組み合わさる事でより大きな効果が生まれます。<br> -->
                         鍼灸師、トレーナーの目線で<br>
                         最初から最後までマンツーマンでサポートさせて頂きます。<br>
                         <br>
@@ -214,10 +179,9 @@
             <div class="contents-detail detail-scroll">
                 <table class="price-table">
                     <thead>
-                        <!-- TODO:カタカナ -->
                         <th></th>
                         <th>パーソナル<br>ボディメイク会員<span>*1*2</span></th>
-                        <th>Fitness<br>member<span>*1</span></th>
+                        <th>フィットネス<br>メンバー<span>*1</span></th>
                         <th>全身鍼灸<br>マッサージ</th>
                         <th>美容鍼灸</th>
                     </thead>
