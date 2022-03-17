@@ -15,7 +15,7 @@
     </header>
     <main class="main">
         <section class="top" id="top">
-            <img class="top-bg" src="<?php echo get_template_directory_uri(); ?>/src/images/bg-top.png" alt="">
+            <img class="top-bg" src="<?php echo get_template_directory_uri(); ?>/src/images/bg-top02.jpg" alt="">
             <div class="top-title is-animated" id="bg">
                 <span class="bg-wrap"><span class="inn">治療院 整体 ジム 美容を</span></span><br>
                 <span class="bg-wrap"><span class="inn">ひとつに</span></span>
@@ -65,7 +65,7 @@
                     </div>
                 </li>
                 <li class="service-item">
-                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/service/service04.jpg" alt="">
+                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/service/service03.jpg" alt="">
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">美顔鍼・小顔頭蓋骨矯正</div>
                         <div class="text-detail fade-in fade-in-up">
@@ -94,22 +94,23 @@
                     </div>
                 </li>
                 <li class="floor-item">
-                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor02.png" alt="">
+                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor02.jpg" alt="">
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">マッサージスペース</div>
                         <div class="text-detail fade-in fade-in-up">
-                            いつでも気持ちよく施術を受けていただけるよう、清潔感を大切にしています。
+                            いつでも気持ちよく施術を受けていただけるよう、清潔感を大切にしています。<br>
                             適切な温度調整や調光も◎
                         </div>
                     </div>
                 </li>
                 <li class="floor-item">
-                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor04.png" alt="">
+                    <img class="fade-in fade-in-up" src="<?php echo get_template_directory_uri(); ?>/src/images/floor/floor03.jpg" alt="">
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">BARスペース</div>
                         <div class="text-detail fade-in fade-in-up">
                             おしゃれな空間で憩いの場としても◎
-                            プロテインやコーヒーを飲みながらリラックスして下さい。お子様連れや複数人でのご来店もOK！
+                            プロテインやコーヒーを飲みながらリラックスして下さい。<br>
+                            お子様連れや複数人でのご来店もOK！
                         </div>
                     </div>
                 </li>
@@ -273,7 +274,7 @@
                     </tr>
                     <tr class="table-item">
                         <td>e-mail</td>
-                        <td></td>
+                        <td>sekine@collect2019.com</td>
                     </tr>
                     <tr class="table-item">
                         <td>tel</td>
@@ -312,9 +313,6 @@
         </section>
         <aside>
             <ul class="sns-icon">
-                <li class="item">
-                    <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
-                </li>
                 <li class="item">
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 </li>
