@@ -247,16 +247,18 @@
             </div>
             <div class="contents-detail">
                 <?php
-                $args = array(
-                    'post_type' => 'post',
-                    'name' => 'instagram',
-                );
+                $args = [
+                  "post_type" => "post",
+                  "name" => "instagram",
+                ];
                 $set_query = new WP_Query($args);
                 ?>
-                <?php if ($set_query->have_posts()) : ?>
-                    <?php while ($set_query->have_posts()) : $set_query->the_post(); ?>
-                        <?php the_content() ?>
-                    <?php endwhile; ?>
+                <?php if ($set_query->have_posts()): ?>
+                    <?php while ($set_query->have_posts()):
+                      $set_query->the_post(); ?>
+                        <?php the_content(); ?>
+                    <?php
+                    endwhile; ?>
                 <?php endif; ?>
                 <?php wp_reset_postdata(); ?>
             </div>
@@ -297,16 +299,18 @@
             </div>
             <div class="contents-detail contact-detail">
                 <?php
-                $args = array(
-                    'post_type' => 'post',
-                    'name' => 'contact',
-                );
+                $args = [
+                  "post_type" => "post",
+                  "name" => "contact",
+                ];
                 $set_query = new WP_Query($args);
                 ?>
-                <?php if ($set_query->have_posts()) : ?>
-                    <?php while ($set_query->have_posts()) : $set_query->the_post(); ?>
-                        <?php the_content() ?>
-                    <?php endwhile; ?>
+                <?php if ($set_query->have_posts()): ?>
+                    <?php while ($set_query->have_posts()):
+                      $set_query->the_post(); ?>
+                        <?php the_content(); ?>
+                    <?php
+                    endwhile; ?>
                 <?php endif; ?>
                 <?php wp_reset_postdata(); ?>
             </div>
@@ -314,13 +318,13 @@
         <aside>
             <ul class="sns-icon">
                 <li class="item">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100004072729520"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li class="item">
-                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/pbs_collect/"><i class="fa-brands fa-instagram-square"></i></a>
                 </li>
                 <li class="item">
-                    <a href="https://lin.ee/CTeEi3a"><i class="fa-brands fa-line"></i></a>
+                    <a target="_blank" href="https://lin.ee/CTeEi3a"><i class="fa-brands fa-line"></i></a>
                 </li>
             </ul>
         </aside>
