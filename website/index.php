@@ -248,14 +248,14 @@
             <div class="contents-detail">
                 <?php
                 $args = [
-                  "post_type" => "post",
-                  "name" => "instagram",
+                    "post_type" => "post",
+                    "name" => "instagram",
                 ];
                 $set_query = new WP_Query($args);
                 ?>
-                <?php if ($set_query->have_posts()): ?>
-                    <?php while ($set_query->have_posts()):
-                      $set_query->the_post(); ?>
+                <?php if ($set_query->have_posts()) : ?>
+                    <?php while ($set_query->have_posts()) :
+                        $set_query->the_post(); ?>
                         <?php the_content(); ?>
                     <?php
                     endwhile; ?>
@@ -300,14 +300,14 @@
             <div class="contents-detail contact-detail">
                 <?php
                 $args = [
-                  "post_type" => "post",
-                  "name" => "contact",
+                    "post_type" => "post",
+                    "name" => "contact",
                 ];
                 $set_query = new WP_Query($args);
                 ?>
-                <?php if ($set_query->have_posts()): ?>
-                    <?php while ($set_query->have_posts()):
-                      $set_query->the_post(); ?>
+                <?php if ($set_query->have_posts()) : ?>
+                    <?php while ($set_query->have_posts()) :
+                        $set_query->the_post(); ?>
                         <?php the_content(); ?>
                     <?php
                     endwhile; ?>
@@ -315,7 +315,7 @@
                 <?php wp_reset_postdata(); ?>
             </div>
         </section>
-        <aside>
+        <aside class="side-icon">
             <ul class="sns-icon">
                 <li class="item">
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100004072729520"><i class="fa-brands fa-facebook"></i></a>
@@ -327,6 +327,13 @@
                     <a target="_blank" href="https://lin.ee/CTeEi3a"><i class="fa-brands fa-line"></i></a>
                 </li>
             </ul>
+        </aside>
+        <aside class="counselor-icon">
+            <div class="main-title">
+                <a href="https://lin.ee/CTeEi3a">
+                    無料カウンセリング実施中！今すぐ相談する
+                </a>
+            </div>
         </aside>
     </main>
 </body>
