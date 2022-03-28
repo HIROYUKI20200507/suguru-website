@@ -33,7 +33,8 @@
                     COLLECTに多くの人が集まり、人々がサロンを通して幸せになり、笑顔集まる空間にしたい。<br>
                     <br>
                     COLLECTは<br>
-                    スポーツジム、鍼灸マッサージ院ではなく、『ボディメイクサロン』としてそれぞれの垣根を越えボディメイクをトータル的にサポートします。<br>
+                    スポーツジム、鍼灸マッサージ院ではなく、<br>
+                    『ボディメイクサロン』としてそれぞれの垣根を越えボディメイクをトータル的にサポートします。<br>
                 </p>
                 <div class="concept-name">
                     関根 傑
@@ -51,7 +52,7 @@
                     <div class="text">
                         <div class="text-title fade-in fade-in-up">パーソナルトレーニング</div>
                         <div class="text-detail fade-in fade-in-up">
-                            トレーナー・鍼灸師の視点からマンツーマンでサポート。理想に合わせた強度、ペースをアドバイス。1人じゃないから続けやすい！トレーニング初心者の方にこそオススメです。
+                            トレーナー・鍼灸師の視点からマンツーマンでサポート。理想に合わせた強度、ペースをアドバイス。1人じゃないから続けやすい！<br>トレーニング初心者の方にこそオススメです。
                         </div>
                     </div>
                 </li>
@@ -122,7 +123,7 @@
                 <div class="sub fade-in fade-in-up">イチオシ</div>
             </div>
             <div class="contents-detail strong-detail">
-                <video src="<?php echo get_template_directory_uri(); ?>/src/videos/test_video.mp4" muted autoplay loop></video>
+                <video src="<?php echo get_template_directory_uri(); ?>/src/videos/video.mp4" muted autoplay loop></video>
                 <ul class="strong-point">
                     <li class="point-item fade-in fade-in-up">
                         <div class="detail"><span class="num">01</span>1on1のトータルボディメイクサロン</div>
