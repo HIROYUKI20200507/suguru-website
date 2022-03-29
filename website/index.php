@@ -281,7 +281,7 @@
                     </tr>
                     <tr class="table-item">
                         <td>tel</td>
-                        <td>070-8497-6183(代表)/0066-98095-57692(予約)</td>
+                        <td>070-8497-6183(代表)</td>
                     </tr>
                     <tr class="table-item">
                         <td>open</td>
