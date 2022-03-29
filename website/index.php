@@ -123,7 +123,7 @@
                 <div class="sub fade-in fade-in-up">イチオシ</div>
             </div>
             <div class="contents-detail strong-detail">
-                <video src="<?php echo get_template_directory_uri(); ?>/src/videos/video.mp4" muted autoplay loop></video>
+                <video src="<?php echo get_template_directory_uri(); ?>/src/videos/video.mp4" muted autoplay loop playsinline></video>
                 <ul class="strong-point">
                     <li class="point-item fade-in fade-in-up">
                         <div class="detail"><span class="num">01</span>1on1のトータルボディメイクサロン</div>

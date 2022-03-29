@@ -789,6 +789,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         gap: 50px;
+        z-index: 9999;
 
         // @media screen and (max-width: 600px) {
         //     display: flex;
