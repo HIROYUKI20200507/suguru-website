@@ -8,12 +8,11 @@
 
 <meta property="og:locale" content="ja_JP" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:url" content="" />
-<meta property="og:site_name" content="" />
-<meta property="og:image" content="" />
-<meta property="og:image:secure_url" content="" />
+<meta property="og:title" content="【公式】PERSONAL BODYMAKE SALON 『COLLECT』" />
+<meta property="og:description" content="埼玉県所沢市のパーソナルボディメイクサロン　コレクト公式サイトです。トレーニング・鍼灸マッサージ・美顔鍼・小顔頭蓋骨矯正を一括して行えるサロンです。無料カウンセリング実施中です。" />
+<meta property="og:url" content="<?php echo get_template_directory_uri(); ?>/screenshot.jpg" />
+<meta property="og:site_name" content="【公式】PERSONAL BODYMAKE SALON 『COLLECT』" />
+<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/screenshot.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
 
 <!-- google fonts -->
