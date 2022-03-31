@@ -319,7 +319,7 @@
         <aside class="side-icon">
             <ul class="sns-icon">
                 <li class="item">
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100004072729520"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/Personal-Bodymake-Saloncollect-104695992017074"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li class="item">
                     <a target="_blank" href="https://www.instagram.com/pbs_collect/"><i class="fa-brands fa-instagram-square"></i></a>
