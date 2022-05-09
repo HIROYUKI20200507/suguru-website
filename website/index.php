@@ -332,7 +332,7 @@
         <aside class="counselor-icon">
             <div class="main-title">
                 <a href="https://www.google.com/maps/reserve/v/default?m=E3g0BVzyI4k&source=pa&gei=hdBwYoPmOc3AhwOw5JjIDw&sourceurl=https://www.google.co.jp/search?q%3DPERSONAL%2BBODYMAKE%2BSALON%2BCOLLECT%26ie%3DUTF-8%26oe%3DUTF-8%26hl%3Dja-jp%26client%3Dsafari&hl=ja-JP">
-                    まずは体験！4,400円〜<br class="sp-only">今すぐ相談する
+                    今すぐ予約！<br class="sp-only">体験4,400円！
                 </a>
             </div>
         </aside>
