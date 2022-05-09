@@ -10,7 +10,7 @@
     <header>
         <div class="header-nav">
             <img src="<?php echo get_template_directory_uri(); ?>/src/images/header-logo.png" alt="">
-            <a href="#" class="nav-contact hvr-trim">予約</a>
+            <a href="https://www.google.com/maps/reserve/v/default?m=E3g0BVzyI4k&source=pa&gei=hdBwYoPmOc3AhwOw5JjIDw&sourceurl=https://www.google.co.jp/search?q%3DPERSONAL%2BBODYMAKE%2BSALON%2BCOLLECT%26ie%3DUTF-8%26oe%3DUTF-8%26hl%3Dja-jp%26client%3Dsafari&hl=ja-JP" class="nav-contact hvr-trim">予約</a>
         </div>
     </header>
     <main class="main">
@@ -331,8 +331,8 @@
         </aside>
         <aside class="counselor-icon">
             <div class="main-title">
-                <a href="https://lin.ee/CTeEi3a">
-                    無料カウンセリング実施中！今すぐ相談する
+                <a href="https://www.google.com/maps/reserve/v/default?m=E3g0BVzyI4k&source=pa&gei=hdBwYoPmOc3AhwOw5JjIDw&sourceurl=https://www.google.co.jp/search?q%3DPERSONAL%2BBODYMAKE%2BSALON%2BCOLLECT%26ie%3DUTF-8%26oe%3DUTF-8%26hl%3Dja-jp%26client%3Dsafari&hl=ja-JP">
+                    まずは体験！4,400円〜<br class="sp-only">今すぐ相談する
                 </a>
             </div>
         </aside>
